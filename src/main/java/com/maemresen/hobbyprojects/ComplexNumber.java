@@ -1,9 +1,9 @@
-package com.maemresen.hobbyprojcts;
+package com.maemresen.hobbyprojects;
 
 public class ComplexNumber {
 	double re;
 	double im;
-		
+
 	public ComplexNumber(double a, double b){
 		re = a;
 		im = b;
@@ -15,7 +15,7 @@ public class ComplexNumber {
 		ComplexNumber ans;
 		ans = new ComplexNumber(re+other.re , im+other.im);
 		return ans;
-	
+
 	}
 	public ComplexNumber multiply(ComplexNumber other){
 		ComplexNumber ans;

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="206.0" prefWidth="374.0" stylesheets="@buttonStyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.maemresen.hobbyprojects.guessnumbergame.MainController">
+   <children>
+      <HBox layoutY="3.0">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutY="3.0">
+               <image>
+                  <Image url="@askMe.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER" layoutX="200.0" layoutY="74.0" spacing="10.0">
+               <children>
+                  <Button fx:id="playBtn" layoutX="200.0" layoutY="74.0" mnemonicParsing="false" onAction="#playGame" prefHeight="58.0" prefWidth="143.0" text="Start Game">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#exitGame" text="Quit Game" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</Pane>

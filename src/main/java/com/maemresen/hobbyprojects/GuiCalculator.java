@@ -1,4 +1,4 @@
-package com.maemresen.hobbyprojcts;
+package com.maemresen.hobbyprojects;
 
 import java.awt.Color;
 import java.awt.EventQueue;
@@ -19,7 +19,7 @@ public class GuiCalculator {
 	private JTextField textFieldNum2;
 	private JTextField textFieldRes;
 
-	
+
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -33,7 +33,7 @@ public class GuiCalculator {
 		});
 	}
 
-	
+
 	public GuiCalculator() {
 		initialize();
 	}
@@ -45,28 +45,28 @@ public class GuiCalculator {
 		frmS.getContentPane().setFont(new Font("Dialog", Font.BOLD, 18));
 		frmS.setBounds(100, 100, 249, 237);
 		frmS.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
 		textFieldNum1 = new JTextField();
 		textFieldNum1.setBounds(10, 44, 99, 20);
 		textFieldNum1.setColumns(10);
-		
+
 		textFieldNum2 = new JTextField();
 		textFieldNum2.setBounds(119, 44, 99, 20);
 		textFieldNum2.setColumns(10);
-		
+
 		JLabel lblFirstNumber = new JLabel("First Number");
 		lblFirstNumber.setBounds(10, 17, 132, 21);
 		lblFirstNumber.setFont(new Font("Comic Sans MS", Font.BOLD, 14));
-		
+
 		JLabel lblSecondNumber = new JLabel("Second Number");
 		lblSecondNumber.setBounds(119, 17, 105, 21);
 		lblSecondNumber.setFont(new Font("Comic Sans MS", Font.BOLD, 14));
-		
+
 		JButton btnAdd = new JButton("+");
 		btnAdd.setForeground(Color.BLACK);
 		btnAdd.setBackground(Color.RED);
 		btnAdd.addActionListener(new ActionListener() {
-			
+
 			public void actionPerformed(ActionEvent e) {
 				double n1,n2,res;
 				try{
@@ -76,13 +76,13 @@ public class GuiCalculator {
 					textFieldRes.setText(Double.toString(res));
 				}catch(Exception a){
 					JOptionPane.showMessageDialog(null, "Please Enter a Valid Number");
-					
+
 				}
 			}
 		});
 		btnAdd.setBounds(10, 82, 43, 33);
 		btnAdd.setFont(new Font("Dialog", Font.BOLD, 15));
-		
+
 		JButton btnSub = new JButton("-");
 		btnSub.setForeground(Color.BLACK);
 		btnSub.setBackground(Color.ORANGE);
@@ -96,13 +96,13 @@ public class GuiCalculator {
 					textFieldRes.setText(Double.toString(res));
 				}catch(Exception a){
 					JOptionPane.showMessageDialog(null, "Please Enter a Valid Number");
-					
+
 				}
 			}
 		});
 		btnSub.setBounds(63, 82, 43, 33);
 		btnSub.setFont(new Font("Dialog", Font.BOLD, 18));
-		
+
 		JButton btnMulti = new JButton("x");
 		btnMulti.setForeground(Color.BLACK);
 		btnMulti.setBackground(Color.GREEN);
@@ -116,13 +116,13 @@ public class GuiCalculator {
 					textFieldRes.setText(Double.toString(res));
 				}catch(Exception a){
 					JOptionPane.showMessageDialog(null, "Please Enter a Valid Number");
-					
+
 				}
 			}
 		});
 		btnMulti.setBounds(122, 82, 43, 33);
 		btnMulti.setFont(new Font("Dialog", Font.BOLD, 17));
-		
+
 		JButton btnDiv = new JButton("/");
 		btnDiv.setBackground(new Color(255, 0, 255));
 		btnDiv.addActionListener(new ActionListener() {
@@ -135,7 +135,7 @@ public class GuiCalculator {
 					textFieldRes.setText(Double.toString(res));
 				}catch(Exception a){
 					JOptionPane.showMessageDialog(null, "Please Enter a Valid Number");
-					
+
 				}
 			}
 		});
@@ -150,12 +150,12 @@ public class GuiCalculator {
 		frmS.getContentPane().add(textFieldNum2);
 		frmS.getContentPane().add(lblFirstNumber);
 		frmS.getContentPane().add(lblSecondNumber);
-		
+
 		JLabel lblResult = new JLabel("Result =");
 		lblResult.setFont(new Font("Tahoma", Font.BOLD, 15));
 		lblResult.setBounds(10, 130, 69, 55);
 		frmS.getContentPane().add(lblResult);
-		
+
 		textFieldRes = new JTextField();
 		textFieldRes.setBounds(80, 149, 138, 20);
 		frmS.getContentPane().add(textFieldRes);

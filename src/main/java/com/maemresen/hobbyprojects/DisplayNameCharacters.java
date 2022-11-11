@@ -1,4 +1,4 @@
-package com.maemresen.hobbyprojcts;
+package com.maemresen.hobbyprojects;
 
 import javafx.application.Application;
 import javafx.application.Platform;

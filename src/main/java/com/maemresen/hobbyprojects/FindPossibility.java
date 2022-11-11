@@ -1,4 +1,4 @@
-package com.maemresen.hobbyprojcts;
+package com.maemresen.hobbyprojects;
 
 import java.util.Random;
 import java.util.Scanner;

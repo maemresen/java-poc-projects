@@ -1,4 +1,4 @@
-package com.maemresen.hobbyprojcts.data.structures.examples;
+package com.maemresen.hobbyprojects.data.structures.examples;
 
 public  class MyList <T>{
 
