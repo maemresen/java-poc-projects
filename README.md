@@ -10,6 +10,8 @@ In this repository you could access my Java projects developed during my CSE101 
 * **[CliEquationSolver](./src/main/java/com/maemresen/hobbyprojects/CliEquationSolver.java)**: An example Java CLI Application for solving simple and quadratic equations 
 * **[GuiEquationSolver](./src/main/java/com/maemresen/hobbyprojects/GuiEquationSolver.java)**: An example Java Swing Application for solving simple and quadratic equations  
 * **[RandomGroupCreator](./src/main/java/com/maemresen/hobbyprojects/RandomGroupCreator.java)**:  An example Java CLI Application for creating random groups with sized 4-3-3  
+* **[Data Structures Example](./src/main/java/com/maemresen/hobbyprojects/data/structures/examples)**: Examples for understanding data structures
+* **[Guess Number Game](./src/main/java/com/maemresen/hobbyprojects/guessnumbergame)**: Guess the number game developed as Java FX application
 
 
 
