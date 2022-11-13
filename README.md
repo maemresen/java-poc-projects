@@ -1,7 +1,7 @@
-# CSE101 Projects
-In this repository you could access my Java projects developed during my CSE101 Course at my first years.
+# Java PoC Projects
+In this repository you could access my Proof-of-Concept Java projects developed.
 
-# Projects
+## Projects
 * **[DisplayNameCharacters](./simple-examples/src/main/java/com/maemresen/hobbyprojects/DisplayNameCharacters.java)** \
 An example JavaFX Application
 
