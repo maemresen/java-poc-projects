@@ -1,4 +1,4 @@
-package com.maemresen.hobbyprojects.footballsim;
+package com.maemresen.footballsim;
 
 public class Team {
 

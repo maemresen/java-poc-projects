@@ -1,4 +1,4 @@
-package com.maemresen.hobbyprojects.footballsim;
+package com.maemresen.footballsim;
 
 import java.util.Random;
 
