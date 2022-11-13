@@ -1,0 +1,28 @@
+.label {
+    -fx-font-size: 11pt;
+    -fx-text-fill: black;
+}
+
+.button{
+    -fx-background-color: aliceblue;
+    -fx-text-fill: black;
+    -fx-font-size: 10pt;
+}
+.check-box {
+    -fx-font-size: 10pt;
+    -fx-background-color: aliceblue;
+    -fx-text-fill: #1f46bf;
+}
+
+
+.choice-box .label {
+    -fx-text-fill: black;
+    -fx-font-size: 9pt;
+}
+
+.root{
+    -fx-font-style: italic;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-background-color: aliceblue;
+}
+

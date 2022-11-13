@@ -20,5 +20,6 @@
     <module>guess-the-number-game</module>
     <module>simple-examples</module>
     <module>data-structure-example</module>
+    <module>character-counter</module>
   </modules>
 </project>
