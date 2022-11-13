@@ -24,11 +24,11 @@ public class Main extends Application {
         window = primaryStage;
 
         mainMenu = new Scene(
-                FXMLLoader.load(getClass().getResource("/com/maemresen/hobbyprojects/guessnumbergame/mainMenu.fxml"))
+                FXMLLoader.load(getClass().getResource("/guessnumbergame/mainMenu.fxml"))
         );
 
         inGameMenu = new Scene(
-                FXMLLoader.load(getClass().getResource("/com/maemresen/hobbyprojects/guessnumbergame/sample.fxml")),1100,300
+                FXMLLoader.load(getClass().getResource("/guessnumbergame/sample.fxml")),1100,300
         );
 
         move(mainMenu);
